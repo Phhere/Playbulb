@@ -13,12 +13,12 @@ Value: [saturation][color][mode][00][speed][00]
 
 Parameter  | Value
 ------------- | -------------
-saturation | ff=low, 00= high
-color | color as rgb hex
-mode  | 01 = Fade, 02 = Jump rbg, 03 = Fade RGB, 04 = Candle Effekt
+saturation | 00-> ff, ff => low, 00 => high
+color | color as RGB hex
+mode  | 01 = Fade, 02 = Jump RBG, 03 = Fade RGB, 04 = Candle Effect
 speed | 00-> ff, 00 => really slow, 01 => really fast, 02 => slower
 
-#####Candle effekt
+#####Candle effect
 `saturation + color = ff000000`
 
 
