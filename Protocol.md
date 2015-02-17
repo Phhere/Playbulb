@@ -1,4 +1,4 @@
-Playbulb Candle Bluetooth Codes
+Playbulb Bluetooth Codes
 ====================
 0x0003: get name
 ---------------------
@@ -17,6 +17,9 @@ saturation | ff=low, 00= high
 color | color as rgb hex
 mode  | 01 = Fade, 02 = Jump rbg, 03 = Fade RGB, 04 = Candle Effekt
 speed | 00-> ff, 00 => really slow, 01 => really fast, 02 => slower
+
+#####Candle effekt
+`saturation + color = ff000000`
 
 
 0x0016: Get / Set Color
