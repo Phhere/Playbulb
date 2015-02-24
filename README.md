@@ -8,7 +8,7 @@ At this point we can only provide some information on the Candle product line, a
 But looking at how they all work, and if we can get hold of other lights, we should be able to extend this collection.
 
 * Protocol information
-** [Candle](protocol/candle.md)
+  * [Candle](protocols/candle.md)
 * [Some general stuff](General.md)
 * [Examples](Examples.md)
 
