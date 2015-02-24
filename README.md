@@ -7,7 +7,8 @@ This is a collection of documentation and code snippets to use/control the [Play
 At this point we can only provide some information on the Candle product line, as this is the only one we have so far.
 But looking at how they all work, and if we can get hold of other lights, we should be able to extend this collection.
 
-* [Protocol information](Protocol.md)
+* Protocol information
+** [Candle](protocol/candle.md)
 * [Some general stuff](General.md)
 * [Examples](Examples.md)
 
