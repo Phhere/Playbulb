@@ -1,8 +1,8 @@
 # Playbulb
-tools for communication with Playbulb led lights (Candle, Rainbow,..)
+Tools/Specs for communication with Playbulb LED lights (Candle, Rainbow,..)
 
-This is a collection of documentation and code snippets to use/control the [Playbulb](http://www.playbulb
-.com/en/index.html) series of LED lights from [MiPow](http://www.mipow.com/en/index.html)
+This is a collection of documentation and code snippets to use/control the [Playbulb](http://www.playbulb.com/en/index.html)
+series of LED lights from [MiPow](http://www.mipow.com/en/index.html)
 
 * Protocol information
   * [Candle](protocols/candle.md)
