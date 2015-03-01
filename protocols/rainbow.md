@@ -8,31 +8,33 @@ Playbulb Bluetooth Codes
 Value: Name of device in Hex
 
 
-0x0014: Effects
+0x0016: Effects
 ---------------------
-Value: [saturation][color][mode][00][speed][00]
+Value: [white][color][mode][00][speed]
 
 Parameter  | Value
 ------------- | -------------
-saturation | 00-> ff, ff => low, 00 => high
+white | 00 => off, ff => white, 01-> ff => saturation of white
 color | color as RGB hex
-mode  | 01 = Fade, 02 = Jump RBG, 03 = Fade RGB, 04 = Candle Effect
-speed | 00-> ff, 00 => really slow, 01 => really fast, 02 => slower
+mode  | 00 = Flash, 01 = Pulse, 02 = Rainbow Jump, 03 = Rainbow Fade
+speed | 46 46-> 01 01 => Slow to Fast (Flash, Rainbow), 1e 1e-> 01 01 => Slow to Fast (Pulse)
 
-#####Candle effect
-`saturation + color = ff000000`
+#####Red pulse effect
+00ff000001000f0f
 
 
-0x0016: Get / Set Color
+0x0018: Get / Set Color
 ---------------------
-Value  | Result
+Value: [white][color]
+
+Parameter  | Value
 ------------- | -------------
-00000000 | led off
-ff000000 | candle color
-00+hex  | hex color
+white | 00 => off, ff => white, 01-> ff => saturation of white
+color | color as RGB hex
 
 #####Example
 00ff0000 => full red
+ff000000 => white
 
 
 0x0023: Candle Type
@@ -46,7 +48,6 @@ BTL300  | Playbulb Candle
 ---------------------
 #####Example Response
 `CSR101x A05`
-
 
 http://www.csr.com/products/csr101x-product-family
 
