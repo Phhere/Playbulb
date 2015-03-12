@@ -24,9 +24,11 @@ Here is a list of Device IDs which we know are working:
 
 - ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
 - Builtin BT of ThinkPad T440s
+- Builtin BT of Lenovo Yoga 2 Pro
 
 When it comes to the BlueZ version, we could see some issue with the latest BlueZ 5.x
 We were not able to directly write to the device using `gatttool`
 
 On Ubuntu 14.10.1, which I use for testing, I had to stick to the distro default version, which as of writting this, is
-`4.101-0ubuntu20`
+`4.101-0ubuntu20`.
+To get the `gatttool` on a Fedora system, you need at least 5.28 of the BlueZ package which is only available for Fedora 22+.
