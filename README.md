@@ -7,6 +7,7 @@ series of LED lights from [MiPow](http://www.mipow.com/en/index.html)
 * Protocol information
   * [Candle](protocols/candle.md)
   * [Rainbow](protocols/rainbow.md)
+  * [Color](protocols/color.md)
 * [Some general stuff](General.md)
 * [Examples](Examples.md)
 
