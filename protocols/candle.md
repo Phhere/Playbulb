@@ -82,7 +82,7 @@ http://www.csr.com/products/csr101x-product-family
 `Application version 2.3.0.31`
 
 
-0x002b: ??
+0x002b: Manufacturer
 ---------------------
 #####Example Response
 `Mipow Limited`
