@@ -25,10 +25,9 @@ mode  | 01 = Fade, 02 = Jump RBG (rainbow), 03 = Fade RGB (rainbow), 04 = Candle
 speed | 00-> ff, 00 => really slow, 01 => really fast, 02 => slower
 
 #####Example
-#####Candle effect
 Value  | Result
 ------------- | -------------
-ff00000004000000 | candel effect
+ff00000004000000 | candle effect
 
 
 0x0016: Get / Set Color
