@@ -5,6 +5,7 @@ This is a collection of documentation and code snippets to use/control the [Play
 series of LED lights from [MiPow](http://www.mipow.com/en/index.html)
 
 * Protocol information
+  * [Original](protocols/original.md)
   * [Candle](protocols/candle.md)
   * [Rainbow](protocols/rainbow.md)
   * [Color](protocols/color.md)
