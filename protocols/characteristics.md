@@ -2,28 +2,28 @@
 
 UUID     | Description                                                   | Example                          | URL | 
 ---------| ------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-00002a00 | Name of device                                                | My candle                        | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.device_name.xml) |
-00002a01 | Appearance                                                    | 40 03                            | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.appearance.xml) |
-00002a04 | Peripheral Preferred Connection Parameters                    | 10 00 20 00 00 00 58 02          | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.peripheral_preferred_connection_parameters.xml) |
-00002a05 | Service Changed                                               | 05 00 ff ff                      | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gatt.service_changed.xml) |
-00002a19 | Battery Level                                                 | 64                               | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.battery_level.xml) | 
-00002a25 | Playbulb model                                                | BTL300                           | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.serial_number_string.xml) |
-00002a26 | Firmware version                                              | BTL300_v6                        | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.firmware_revision_string.xml) |
-00002a27 | Microprocessor                                                | CSR101x A05                      | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.hardware_revision_string.xml) |
-00002a28 | Application version                                           | Application version 2.4.3.26     | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.software_revision_string.xml) |
-00002a29 | Manufacturer                                                  | Mipow Limited                    | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.manufacturer_name_string.xml) |
-00002a50 | PnP ID                                                        | 0a 33 00 a5 a5 00 5b 02 00 23 9b e1 11 02 d1 13 10 00 00 | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.pnp_id.xml) |
-0000fff8 | ???                                                           | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | | 
-0000fff9 | ???                                                           | 00 00 00 ff ff ff ff 00 00 00 00 00 00 | | 
-0000fffa | ???                                                           | 00 | | 
-0000fffb | Get / Set Color with effects [WRGBE-S-]                       | FF 00 00 00 04 00 01 00 | | 
-0000fffc | Get / Set Color [WRGB]                                        | FF 00 00 00 | |
-0000fffd | ???                                                           | b7 22 b2 e0 | | 
-0000fffe | ???                                                           | 04 ff ff 04 ff ff 04 ff ff 04 ff ff 00 00 | | 
-0000ffff | Device name (same as 2a00)                                    | His candle | | 
+2a00 | Name of device                                                | My candle                        | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.device_name.xml) |
+2a01 | Appearance                                                    | 40 03                            | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.appearance.xml) |
+2a04 | Peripheral Preferred Connection Parameters                    | 10 00 20 00 00 00 58 02          | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.peripheral_preferred_connection_parameters.xml) |
+2a05 | Service Changed                                               | 05 00 ff ff                      | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gatt.service_changed.xml) |
+2a19 | Battery Level                                                 | 64                               | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.battery_level.xml) | 
+2a25 | Playbulb model                                                | BTL300                           | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.serial_number_string.xml) |
+2a26 | Firmware version                                              | BTL300_v6                        | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.firmware_revision_string.xml) |
+2a27 | Microprocessor                                                | CSR101x A05                      | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.hardware_revision_string.xml) |
+2a28 | Application version                                           | Application version 2.4.3.26     | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.software_revision_string.xml) |
+2a29 | Manufacturer                                                  | Mipow Limited                    | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.manufacturer_name_string.xml) |
+2a50 | PnP ID                                                        | 0a 33 00 a5 a5 00 5b 02 00 23 9b e1 11 02 d1 13 10 00 00 | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.pnp_id.xml) |
+fff8 | ???                                                           | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | | 
+fff9 | ???                                                           | 00 00 00 ff ff ff ff 00 00 00 00 00 00 | | 
+fffa | ???                                                           | 00 | | 
+fffb | Get / Set Color with effects [WRGBE-S-]                       | FF 00 00 00 04 00 01 00 | | 
+fffc | Get / Set Color [WRGB]                                        | FF 00 00 00 | |
+fffd | ???                                                           | b7 22 b2 e0 | | 
+fffe | ???                                                           | 04 ff ff 04 ff ff 04 ff ff 04 ff ff 00 00 | | 
+ffff | Device name (same as 2a00)                                    | His candle | | 
 
 
-### Get / Set Color (0000fffc-0000-1000-8000-00805f9b34fb)
+### Get / Set Color - 0xfffc
 
 Value: [white][red][green][blue]
 
@@ -44,7 +44,7 @@ ff000000 | full white
 000000ff | full blue
 ffffffff | max brightness white + mixed white
 
-###Set colors with effects
+###Set colors with effects - 0xfffb
 
 Value: [white][red][green][blue][mode][00][speed][00]
 
