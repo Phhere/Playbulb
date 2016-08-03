@@ -3,17 +3,17 @@ Playbulb characteristics uuid (XXXX-0000-1000-8000-00805f9b34fb)
 
 UUID     | Description                                                   | Example                          | URL | 
 ---------| ------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-00002a00 | Name of device                                                | My candle                        | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.device_name.xml |
-00002a01 | Appearance                                                    | 40 03                            | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.appearance.xml |
-00002a04 | Peripheral Preferred Connection Parameters                    | 10 00 20 00 00 00 58 02          | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.peripheral_preferred_connection_parameters.xml |
-00002a05 | Service Changed                                               | 05 00 ff ff                      | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gatt.service_changed.xml |
-00002a19 | Battery Level                                                 | 64                               | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.battery_level.xml | 
+00002a00 | Name of device                                                | My candle                        | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.device_name.xml) |
+00002a01 | Appearance                                                    | 40 03                            | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.appearance.xml) |
+00002a04 | Peripheral Preferred Connection Parameters                    | 10 00 20 00 00 00 58 02          | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.peripheral_preferred_connection_parameters.xml) |
+00002a05 | Service Changed                                               | 05 00 ff ff                      | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gatt.service_changed.xml) |
+00002a19 | Battery Level                                                 | 64                               | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.battery_level.xml) | 
 00002a25 | Playbulb model                                                | BTL300 | |
 00002a26 | Firmware version                                              | BTL300_v6 | |
 00002a27 | Microprocessor                                                | CSR101x A05 | |
 00002a28 | Application version                                           | Application version 2.4.3.26 | |
 00002a29 | Manufacturer                                                  | Mipow Limited | |
-00002a50 | PnP ID                                                        | 0a 33 00 a5 a5 00 5b 02 00 23 9b e1 11 02 d1 13 10 00 00 | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.pnp_id.xml |
+00002a50 | PnP ID                                                        | 0a 33 00 a5 a5 00 5b 02 00 23 9b e1 11 02 d1 13 10 00 00 | [doc](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.pnp_id.xml) |
 0000fffb | Get / Set Color with effects [WRGBE-S-]                       | FF 00 00 00 04 00 01 00 | | 
 0000fffc  Get / Set Color [WRGB]                                         | FF 00 00 00 | |
 
