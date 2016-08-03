@@ -22,6 +22,7 @@ UUID     | Description                                                   | Examp
 0000fffe | ???                                                           | 04 ff ff 04 ff ff 04 ff ff 04 ff ff 00 00 | | 
 0000ffff | Device name (same as 2a00)                                    | His candle | | 
 
+
 ### Get / Set Color (0000fffc-0000-1000-8000-00805f9b34fb)
 
 Value: [white][red][green][blue]
@@ -60,6 +61,13 @@ speed | 00-> ff, 00 => really slow, 01 => really fast, 02 => slower
 Value  | Result
 ------------- | -------------
 ff00000004000000 | white candle effect
+
+###FFF8
+```
+Sleep timer enabled: 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00
+Nothing enabled    : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+```
+
 
 ###Microprocessor
 
