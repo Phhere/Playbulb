@@ -1,5 +1,4 @@
-Playbulb characteristics uuid (XXXX-0000-1000-8000-00805f9b34fb)
-====================
+###Playbulb characteristics uuid (XXXX-0000-1000-8000-00805f9b34fb)
 
 UUID     | Description                                                   | Example                          | URL | 
 ---------| ------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -23,8 +22,8 @@ UUID     | Description                                                   | Examp
 0000fffe | ???                                                           | 04 ff ff 04 ff ff 04 ff ff 04 ff ff 00 00 | | 
 0000ffff | Device name (same as 2a00)                                    | His candle | | 
 
-Get / Set Color (0000fffc-0000-1000-8000-00805f9b34fb)
----------------------
+### Get / Set Color (0000fffc-0000-1000-8000-00805f9b34fb)
+
 Value: [white][red][green][blue]
 
 Parameter  | Value
@@ -44,8 +43,8 @@ ff000000 | full white
 000000ff | full blue
 ffffffff | max brightness white + mixed white
 
-Set colors with effects
----------------------
+###Set colors with effects
+
 Value: [white][red][green][blue][mode][00][speed][00]
 
 Parameter  | Value
@@ -62,18 +61,16 @@ Value  | Result
 ------------- | -------------
 ff00000004000000 | white candle effect
 
-Microprocessor
----------------------
+###Microprocessor
 
 http://www.csr.com/products/csr101x-product-family
 
-Bluetooth characteristics table
+###Bluetooth characteristics table
 
 https://www.bluetooth.com/specifications/gatt/characteristics
 
+###Playbulb Sphere (BTL301W):
 
-Playbulb Sphere (BTL301W):
-------------------------
 ```
 [LE]> characteristics
 handle: 0x0002, char properties: 0x0a, char value handle: 0x0003, uuid: 00002a00-0000-1000-8000-00805f9b34fb
@@ -103,9 +100,7 @@ handle: 0x0038, char properties: 0x12, char value handle: 0x0039, uuid: 00001014
 handle: 0x003b, char properties: 0x02, char value handle: 0x003c, uuid: 00001011-d102-11e1-9b23-00025b00a5a5
 ```
 
-
-Playbulb Candle (BLT300)
-------------------------
+###Playbulb Candle (BLT300)
 
 ```
 handle: 0x0002, char properties: 0x0a, char value handle: 0x0003, uuid: 00002a00-0000-1000-8000-00805f9b34fb
