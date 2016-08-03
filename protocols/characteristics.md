@@ -1,7 +1,7 @@
 Playbulb characteristics uuid
 ====================
 
-UUID                                  | Description                                                   | Example                          | 
+UUID                                  | Description                                                   | Example                          | URL | 
 ------------------------------------- | ------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 00002a00-0000-1000-8000-00805f9b34fb  | Name of device                                                | My candle                        | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.device_name.xml |
 00002a01-0000-1000-8000-00805f9b34fb  | Appearance                                                    | 40 03                            | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.gap.appearance.xml |
@@ -14,8 +14,8 @@ UUID                                  | Description                             
 00002a28-0000-1000-8000-00805f9b34fb  | Application version                                           | Application version 2.4.3.26 | |
 00002a29-0000-1000-8000-00805f9b34fb  | Manufacturer                                                  | Mipow Limited | |
 00002a50-0000-1000-8000-00805f9b34fb  | PnP ID                                                        | 0a 33 00 a5 a5 00 5b 02 00 23 9b e1 11 02 d1 13 10 00 00 | https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.pnp_id.xml |
-0000fffb-0000-1000-8000-00805f9b34fb  | Get / Set Color with effects [WRGBE-S-]                       | FF 00 00 00 04 00 01 00
-0000fffc-0000-1000-8000-00805f9b34fb  | Get / Set Color [WRGB]                                        | FF 00 00 00
+0000fffb-0000-1000-8000-00805f9b34fb  | Get / Set Color with effects [WRGBE-S-]                       | FF 00 00 00 04 00 01 00 | | 
+0000fffc-0000-1000-8000-00805f9b34fb  | Get / Set Color [WRGB]                                        | FF 00 00 00 | |
 
 Get / Set Color (0000fffc-0000-1000-8000-00805f9b34fb)
 ---------------------
