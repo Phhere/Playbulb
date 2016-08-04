@@ -87,3 +87,8 @@ http://www.csr.com/products/csr101x-product-family
 #####Example Response
 `Mipow Limited`
 
+0x001f: get batteri level
+---------------------
+current battery level as a percentage from 0% to 100%; see also https://developer.bluetooth.org/gatt/services/Pages/ServiceViewer.aspx?u=org.bluetooth.service.battery_service.xml
+
+
