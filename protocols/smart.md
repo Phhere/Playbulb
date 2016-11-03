@@ -1,7 +1,7 @@
 Playbulb Colour LED Bluetooth Codes
 ===================================
 
-http://www.playbulb.com/en/playbulb-color.html#meet-playbulb-color
+http://www.mipow.de/smart-home/46/mipow-playbulb-smart
 
 0x0003: Get name
 ----------------
