@@ -6,7 +6,7 @@ http://www.mipow.de/smart-home/46/mipow-playbulb-smart
 0x0003: Get name
 ----------------
 #####Example response
-50 4c 41 59 42 55 4c 42 20 43 4f 4c 4f 55 52 20 4c 45 44 -> PLAYBULB COLOUR LED
+4d 49 50 4f 57 20 53 4d 41 52 54 20 42 55 4c 42 -> MIPOW SMART BULB
 
 0x001F: Get / Set Name
 ----------------------
