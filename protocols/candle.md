@@ -32,9 +32,9 @@ ff00000004000000 | white candle effect
 
 0x0016: Get / Set Color
 ---------------------
-Long:
+Long: 0000fffb-0000-1000-8000-00805f9b34fb
 
-Short:
+Short: fffb
 
 Value: [white][red][green][blue]
 
